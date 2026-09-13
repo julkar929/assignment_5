@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="bg-gray-50 mt-20 pt-16 pb-8 border-t border-gray-100">
-      <div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand block */}
           <div className="md:col-span-1">
@@ -54,6 +54,15 @@ const Footer = () => {
             </ul>
           </div>
         
+        </div>
+        
+        {/* Bottom bar */}
+        <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between text-sm text-gray-400">
+          <p>© 2026 Dev Stack. All rights reserved.</p>
+          <div className="flex gap-4 mt-2 md:mt-0">
+            <a href="#" className="hover:text-pink-500">Privacy</a>
+            <a href="#" className="hover:text-pink-500">Terms</a>
+          </div>
         </div>
 
         
