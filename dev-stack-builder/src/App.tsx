@@ -7,6 +7,7 @@ import technologiesData from './data/technologies.json';
 import type { Tech } from './types';
 import YourStack from './components/YourStack';
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from './components/Footer';
 
 function App() {
    const [technologies, setTechnologies] = useState<Tech[]>([]);
@@ -89,6 +90,7 @@ function App() {
           </div>
         </div>
       </main>
+      <Footer />
 
       <ToastContainer position="bottom-right" autoClose={2000} />
     </div>
