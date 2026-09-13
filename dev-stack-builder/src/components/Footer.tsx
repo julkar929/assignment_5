@@ -19,6 +19,17 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Product */}
+          <div>
+            <h4 className="font-semibold text-gray-800 text-sm tracking-wide">
+              PRODUCT
+            </h4>
+            <ul className="mt-4 space-y-2 text-gray-500 text-sm">
+              <li><a href="#" className="hover:text-pink-500">Home</a></li>
+              <li><a href="#" className="hover:text-pink-500">Technologies</a></li>
+              <li><a href="#" className="hover:text-pink-500">Projects</a></li>
+            </ul>
+          </div>
           
 
           
