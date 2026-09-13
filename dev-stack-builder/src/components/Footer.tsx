@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 mt-20 pt-16 pb-8 border-t border-gray-100">
       <div>
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand block */}
           <div className="md:col-span-1">
             <div className="hidden md:flex items-center gap-2">
@@ -30,11 +30,30 @@ const Footer = () => {
               <li><a href="#" className="hover:text-pink-500">Projects</a></li>
             </ul>
           </div>
-          
 
-          
+          {/* Company */}
+          <div>
+            <h4 className="font-semibold text-gray-800 text-sm tracking-wide">
+              COMPANY
+            </h4>
+            <ul className="mt-4 space-y-2 text-gray-500 text-sm">
+              <li><a href="#" className="hover:text-pink-500">About</a></li>
+              <li><a href="#" className="hover:text-pink-500">Contact</a></li>
+              <li><a href="#" className="hover:text-pink-500">Careers</a></li>
+            </ul>
+          </div>
 
-          
+          {/* Legal */}
+          <div>
+            <h4 className="font-semibold text-gray-800 text-sm tracking-wide">
+              LEGAL
+            </h4>
+            <ul className="mt-4 space-y-2 text-gray-500 text-sm">
+              <li><a href="#" className="hover:text-pink-500">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-pink-500">Terms of Service</a></li>
+            </ul>
+          </div>
+        
         </div>
 
         
