@@ -6,7 +6,7 @@ const Footer = () => {
           {/* Brand block */}
           <div className="md:col-span-1">
             <div className="hidden md:flex items-center gap-2">
-            <img src="/logo-text.png" alt="Dev Stack Logo" className="h-9 w-auto" />
+            <img src="./logo-text.png" alt="Dev Stack Logo" className="h-9 w-auto" />
             </div>
             <p className="mt-4 text-gray-500 text-sm leading-relaxed">
               Curated tools, technologies, and resources for developers
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         
         </div>
-        
+
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between text-sm text-gray-400">
           <p>© 2026 Dev Stack. All rights reserved.</p>

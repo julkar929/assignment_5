@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className="flex-1 flex justify-center">
           <img
-            src="/banner-stack.png"
+            src="./banner-stack.png"
             alt="3D Technology Stack"
             className="w-full max-w-md object-contain"
           />

@@ -19,12 +19,12 @@ const Navbar = () => {
             >
               {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
             </button>
-            <img src="/logo-text.png" alt="Dev Stack Logo" className="h-8 w-auto" />
+            <img src="./logo-text.png" alt="Dev Stack Logo" className="h-8 w-auto" />
           </div>
 
           {/* Desktop: logo + name */}
           <div className="hidden md:flex items-center gap-2">
-            <img src="/logo-text.png" alt="Dev Stack Logo" className="h-9 w-auto" />
+            <img src="./logo-text.png" alt="Dev Stack Logo" className="h-9 w-auto" />
           </div>
 
           {/* Desktop nav links */}
